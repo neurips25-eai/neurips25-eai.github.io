@@ -1,0 +1,31 @@
+theme: jekyll-theme-cayman
+
+title: "From Thought to Action: The Embodied Agent Interface Challenge for Next-Generation Intelligent Agents"
+
+description: Official Website for NeurIPS 2025 Embodied Agent Interface Competition
+
+timezone: America/Chicago
+
+navigation:
+  Overview: "index"
+  Schedule: "schedule"
+  Rules: "rules"
+  Incentives: "incentives"
+  Starter Kit: "starter_kit"
+  Organizers: "organizers"
+  # Leaderboard: "leaderboard"
+  # Advisors: "advisors"
+  # Sponsors: "sponsors"
+  # Q&A: "question"
+markdown: kramdown
+
+kramdown:
+  parse_span_html: true
+  parse_block_html: true
+  math_engine: katex
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-spaceship
+
+exclude: ["README.md", "Gemfile", "Gemfile.lock"]
