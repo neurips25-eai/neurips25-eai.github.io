@@ -1,23 +1,47 @@
+// // Breakpoints
+// $large-breakpoint: 64em !default;
+// $medium-breakpoint: 42em !default;
+
+// // Headers
+// $header-heading-color: #fff !default;
+// $header-bg-color: #cf19d5 !default;
+// $header-bg-color-secondary: #155799 !default;
+
+// // Text
+// $section-headings-color: #159957 !default;
+// $body-text-color: #606c71 !default;
+// $body-link-color: #1e6bb8 !default;
+// $blockquote-text-color: #819198 !default;
+
+// // Code
+// $code-bg-color: #f3f6fa !default;
+// $code-text-color: #567482 !default;
+
+// // Borders
+// $border-color: #dce6f0 !default;
+// $table-border-color: #e9ebec !default;
+// $hr-border-color: #eff0f1 !default;
+
 // Breakpoints
 $large-breakpoint: 64em !default;
 $medium-breakpoint: 42em !default;
 
-// Headers
-$header-heading-color: #fff !default;
-$header-bg-color: #cf19d5 !default;
-$header-bg-color-secondary: #155799 !default;
+// Headers (Northwestern Purple and Accent)
+$header-heading-color: #ffffff !default;
+$header-bg-color: #4e2a84 !default; // Deep Northwestern Purple
+$header-bg-color-secondary: #b6a6ca !default; // Light Purple accent
 
-// Text
-$section-headings-color: #159957 !default;
-$body-text-color: #606c71 !default;
-$body-link-color: #1e6bb8 !default;
-$blockquote-text-color: #819198 !default;
+// Text (Balance accessibility with purple tones)
+$section-headings-color: #4e2a84 !default; // Purple for section headers
+$body-text-color: #3c3c3c !default; // Dark gray for readability
+$body-link-color: #4e2a84 !default; // Consistent purple for links
+$blockquote-text-color: #5e5e5e !default;
 
-// Code
-$code-bg-color: #f3f6fa !default;
-$code-text-color: #567482 !default;
+// Code (Subtle neutral tones)
+$code-bg-color: #f5f5f5 !default;
+$code-text-color: #4e2a84 !default;
 
-// Borders
-$border-color: #dce6f0 !default;
-$table-border-color: #e9ebec !default;
-$hr-border-color: #eff0f1 !default;
+// Borders (Neutral grays for subtle separators)
+$border-color: #cccccc !default;
+$table-border-color: #dddddd !default;
+$hr-border-color: #e6e6e6 !default;
