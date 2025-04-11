@@ -2,7 +2,8 @@
 layout: default
 ---
 
-# Embodied Agent Interface Challenge @ NeurIPS 2025
+<h1 style="white-space: nowrap;">Embodied Agent Interface Challenge @ NeurIPS 2025</h1>
+<!-- # Embodied Agent Interface Challenge @ NeurIPS 2025 -->
 
 Welcome to the **Embodied Agent Interface (EAI) Challenge**, a NeurIPS 2025 competition that introduces a unified benchmarking framework for evaluating **Large Language Models (LLMs)** in **embodied decision-making tasks**. This competition aims to foster reproducible research and rigorous analysis in embodied AI, bridging the gap between language modeling and robotic planning.
 
