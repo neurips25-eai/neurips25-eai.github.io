@@ -20,23 +20,14 @@ Finalist teams who submit **reproducible results and technical reports** will be
 - **Named authorship** on the official **competition summary paper** submitted to the NeurIPS proceedings.
 - Opportunities to contribute to documentation, analysis, and best practices shared with the research community.
 
-## 💰 Monetary Prizes *(pending sponsor confirmation)*
+## 💰 Monetary Prizes
 
-We are currently finalizing sponsorships to offer **cash awards** to top-performing teams. Updates will be shared on the [competition GitHub repository](https://github.com/neurips25-eai) and EvalAI page.
+- 🥇 First Place: **$600**
+- 🥈 Second Place: **$400**
+- 🥉 Third Place: **$300**
+- 💡 Most Innovative Approach: **$200**
 
-Expected prize categories:
-- 🥇 First Place
-- 🥈 Second Place
-- 🥉 Third Place
-- 🎓 Best Student Team
-- 💡 Most Innovative Approach
-
-## ✈️ Travel Support for Underrepresented Groups
-
-In partnership with organizations such as **WiML**, **Black in AI**, and **LatinX in AI**, we will offer:
-
-- **Travel grants** to support finalists from **underrepresented communities**.
-- Priority support for students from **resource-limited institutions**.
+All winners will receive certificates in addition to their cash awards.
 
 ## 🎖️ Honorable Mentions
 
