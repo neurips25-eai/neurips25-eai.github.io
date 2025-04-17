@@ -22,6 +22,8 @@ kramdown:
   parse_span_html: true
   parse_block_html: true
   math_engine: katex
+  input: GFM
+  hard_wrap: false
 
 plugins:
   - jekyll-seo-tag
