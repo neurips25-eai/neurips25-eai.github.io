@@ -104,6 +104,4 @@ A **comprehensive starter kit** will include:
 - 🐛 File issues on our [GitHub](https://github.com/neurips25-eai)
 - 📧 Contact us at: `TianweiBao@u.northwestern.edu`
 
----
-
 **Let’s build the future of intelligent embodied agents — together.**
