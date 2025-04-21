@@ -22,8 +22,8 @@ Finalist teams who submit **reproducible results and technical reports** will be
 
 ## 💰 Monetary Prizes
 
-- 🥇 First Place: **$600**
-- 🥈 Second Place: **$400**
+- 🥇 First Place: **$1000**
+- 🥈 Second Place: **$500**
 - 🥉 Third Place: **$300**
 - 💡 Most Innovative Approach: **$200**
 
