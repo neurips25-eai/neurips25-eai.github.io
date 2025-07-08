@@ -11,46 +11,41 @@ Stay on track with the official milestones for the **Embodied Agent Interface Ch
 
 - Finalize task annotations and metrics for BEHAVIOR and VirtualHome
 - Internal testing of evaluation scripts and baseline performance
-- Develop Docker-based evaluation pipeline
-
 
 ## 🔄 July 2025  
 **🧪 Beta Launch & Platform Testing**
 
 - Launch **beta test** on EvalAI
-- Release the **starter kit**, public leaderboard, and evaluation API
 - Invite external testers to validate submission process
 
 ## 🚀 August 2025  
 **🎉 Official Competition Launch**
 
 - Public registration opens
+- Release the **starter kit**, public leaderboard, and evaluation API
 - Full dataset, baselines, documentation, and submission formats released
-- Development phase begins with open leaderboard on validation set
+- Development phase begins with open leaderboard on training set
 
-## ⚙️ August–October 2025  
+## ⚙️ August–Early December 2025  
 **🔁 Iteration & Leaderboard Phase**
 
 - Participants work on models and submit predictions
 - Public leaderboard updates daily
-- Limit of 3 submissions per day to prevent overfitting
+- Limit of 10 submissions per day to prevent overfitting
 
 
-## ❄️ Mid-October 2025  
+## ❄️ Mid-December 2025  
 **🧊 Leaderboard Freeze & Final Phase**
 
 - Public leaderboard freezes  
-- Hidden test set is released  
-- Final **Docker submissions** required for reproducibility
+- Hidden held-out set is released  
 
-
-## ✅ Late October 2025  
+## ✅ Late December 2025
 **🔍 Re-evaluation & Final Scoring**
 
-- Organizers re-run top Docker submissions
+- Organizers re-run top submissions
 - Final results aggregated and verified
-- Winners selected based on hidden test set scores
-
+- Winners selected based on hidden held-out set scores
 
 ## 🏁 November 2025  
 **🥇 Results & Recognition**
@@ -58,6 +53,5 @@ Stay on track with the official milestones for the **Embodied Agent Interface Ch
 - Final leaderboard published  
 - Winning teams announced at **NeurIPS 2025**  
 - **Competition summary paper** and team reports submitted to proceedings  
-- Podium talks and posters presented at the NeurIPS workshop
 
 Want to stay informed? Follow [our GitHub repo](#) and join our [community Discord](#) for the latest updates and reminders.
