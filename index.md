@@ -6,6 +6,14 @@ layout: default
 
 Welcome to the **Embodied Agent Interface (EAI) Challenge**, a NeurIPS 2025 competition that introduces a unified benchmarking framework for evaluating **Large Language Models (LLMs)** in **embodied decision-making tasks**. This competition aims to foster reproducible research and rigorous analysis in embodied AI, bridging the gap between language modeling and robotic planning.
 
+## 📣 Announcements
+
+- **June 30, 2025** - The beta test for our competition platform, Eval AI, is now underway! Get ready for the official launch and public registration in late July or early August. Please stay tuned for more updates!
+- **May 25, 2025** - We are thrilled to announce that our Embodied Agent Interface Challenge has been officially accepted by the NeurIPS 2025 Competition Track! Get ready for an amazing event!
+- **May 16, 2025** - A huge thank you to Adobe Research for their generous $1000 in support for our challenge! This contribution is invaluable to our community.
+- **May 1, 2025** - We are so excited to have secured $4000 in support from AIX! This will greatly help in making the EAI Challenge a huge success.
+
+
 ## 🧠 Motivation
 
 Despite increasing interest in using LLMs for robotics and agent reasoning, current evaluations are fragmented and often limited to final task success rates. These approaches fail to reveal specific reasoning failures, limiting scientific understanding and practical progress.
