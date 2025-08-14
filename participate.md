@@ -59,7 +59,7 @@ To submit your model's outputs for evaluation, please follow these steps:
 
 1. **Review the [EvalAI documentation](https://evalai.readthedocs.io/en/latest/participate.html)**: Familiarize yourself with the submission process and officially join the [EAI Challenge](https://eval.ai/web/challenges/challenge-page/2621/overview)
 
-2. **Prepare Your Submission**: Organize your model's outputs according to the structure outlined in the sample_submission in the [**Starter Kit**](https://github.com/embodied-agent-interface/embodied-agent-interface). Please make sure names of 8 required output files exactly match the expected names as shown in the sample_submission.
+2. **Prepare Your Submission**: Organize your model's outputs according to the structure outlined in the sample_submission in the [**Starter Kit**](). Please make sure names of 8 required output files exactly match the expected names as shown in the sample_submission.
 
 3. **Upload to EvalAI**: Use the EvalAI platform to upload your submission. Please zip your submission folder before uploading. The zipped folder should contain all required output files in the correct structure as shown below.
 
