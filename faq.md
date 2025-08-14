@@ -4,7 +4,9 @@ layout: default
 
 # Frequently Asked Questions (FAQ)
 
-This page will be updated regularly with new questions and answers.
+This page contains the most frequently asked questions about the EAI Challenge. 
+
+It will be updated regularly with new questions and answers.
 
 ## General Questions
 
@@ -25,6 +27,14 @@ To get started, please follow the instructions outlined in the [Participate](Par
 ### Is there a submission fee for the challenge?
 
 No, there is no submission fee for participating in the Embodied Agent Interface Challenge.
+
+### Do I have to be a part of a team to participate?
+
+No, individuals can participate in the challenge independently. However, we encourage collaboration and teamwork to foster a diverse range of ideas and approaches.
+
+### Do I have to beat baseline performance provided by the organizers to win?
+
+No, you are not required to beat the baseline performance to participate or submit your work. The baseline serves as a reference point for evaluating submissions, but innovation and improvement beyond the baseline are encouraged. We will rank submissions among all participants based on their performance.
 
 ## Evaluation
 
