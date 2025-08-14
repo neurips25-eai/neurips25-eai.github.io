@@ -22,7 +22,7 @@ To help you get up to speed and make the most of the **EAI Challenge**, we have 
 
 To make participation more accessible to the broader embodied AI community, we have designed a straightforward submission process. You are **not required** to set up or run the complex **BEHAVIOR** or **VirtualHome** simulation environments. All you need to provide is your model's outputs. We will take care of the rest and perform evaluation internally in a sandboxed environment within our infrastructure.
 
-We have created a [**Starter Kit**](https://github.com/embodied-agent-interface/embodied-agent-interface) with all the essentials to help you get started quickly. The kit includes:
+We have created a [**Starter Kit**]() with all the essentials to help you get started quickly. The kit includes:
 
 * **`llm_prompts/`**: A directory containing all the prompts you will use to query your model.
 * **`sample_submission/`**: A sample submission folder that shows the required format and structure for your model's outputs.
