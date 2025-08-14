@@ -12,10 +12,10 @@ navigation:
   Rules: "rules"
   Incentives: "incentives"
   Participate: "participate"
+  FAQ: "faq"
   Organizers: "organizers"
   # Leaderboard: "leaderboard"
   # Sponsors: "sponsors"
-  # Q&A: "question"
 markdown: kramdown
 
 kramdown:
