@@ -26,7 +26,7 @@ Stay on track with the official milestones for the **Embodied Agent Interface Ch
 - Full dataset, baselines, documentation, and submission formats released
 - Development phase begins with open leaderboard on training set
 
-## ⚙️ August–Early December 2025  
+## ⚙️ August – Mid November 2025  
 **🔁 Iteration & Leaderboard Phase**
 
 - Participants work on models and submit predictions
@@ -34,24 +34,22 @@ Stay on track with the official milestones for the **Embodied Agent Interface Ch
 - Limit of 10 submissions per day to prevent overfitting
 
 
-## ❄️ Mid-December 2025  
-**🧊 Leaderboard Freeze & Final Phase**
+## ❄️ Mid November 2025  
+**🧊 Leaderboard Freeze & Final Evaluation Phase**
 
-- Public leaderboard freezes  
-- Hidden held-out set is released  
+- Public leaderboard freezes for the Development Phase
+- Hidden held-out set is released for the final Evaluation Phase
 
-## ✅ Late December 2025
+## ✅ Late November 2025
 **🔍 Re-evaluation & Final Scoring**
 
 - Organizers re-run top submissions
 - Final results aggregated and verified
 - Winners selected based on hidden held-out set scores
 
-## 🏁 November 2025  
+## 🏁 Early December 2025  
 **🥇 Results & Recognition**
 
 - Final leaderboard published  
 - Winning teams announced at **NeurIPS 2025**  
 - **Competition summary paper** and team reports submitted to proceedings  
-
-Want to stay informed? Follow [our GitHub repo](#) and join our [community Discord](#) for the latest updates and reminders.

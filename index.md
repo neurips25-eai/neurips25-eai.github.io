@@ -41,8 +41,6 @@ The benchmark dataset consists of:
 - ✅ LTL-annotated goals, symbolic trajectories, and PDDL-style transition models
 - ✅ Support for interpretable and reproducible evaluation
 
-All data, annotations, and code will be released through our [GitHub repository](https://github.com/neurips25-eai) and Hugging Face Datasets.
-
 ## 🧩 Tasks & Abilities
 
 Participants may compete in one or more of the following modules:
@@ -65,51 +63,27 @@ We evaluate models on:
 
 An aggregated **Average Performance** metric summarizes overall model capability across modules.
 
-## 🚀 Baselines & Starter Kit
-
-We provide baseline implementations using open and proprietary LLMs:
-
-- GPT-4o
-- Claude 3.5 Sonnet
-- Llama 3-70B
-- Gemini 1.5 Pro
-- Mistral Large
-
-A **comprehensive starter kit** will include:
-
-- Data loaders for BEHAVIOR and VirtualHome
-- Evaluation scripts with diagnostic metrics
-- Reference code for each module
-- Docker support and tutorial notebooks
-
 ## 📅 Timeline
 
-| Phase                  | Dates (2025)         |
-|------------------------|----------------------|
-| Beta Testing           | July                 |
-| Competition Launch     | August               |
-| Development Phase      | August – Mid-October |
-| Final Evaluation       | Mid–Late October     |
-| NeurIPS Workshop       | November             |
+| Phase                  | Dates (2025)          |
+|------------------------|-----------------------|
+| Beta Testing           | July                  |
+| Competition Launch     | August                |
+| Development Phase      | August – Mid November |
+| Final Evaluation       | Mid – Late November   |
+| NeurIPS 2025 Competition Track In-Person Event | Early December        |
 
-## 🏆 Awards & Recognition
-
-- Top 3 teams will present at the **NeurIPS 2025 Workshop**
-- Co-authorship on the **official competition report**
-- **Cash prizes** (pending sponsorship)
-- **Travel support** for underrepresented participants
 
 ## 📌 How to Participate
 
-- Register via [EvalAI](https://eval.ai/)
-- Follow instructions in the [starting kit](https://github.com/neurips25-eai)
-- Submit predictions or Docker images
+- Register via [EvalAI](https://eval.ai/web/challenges/challenge-page/2621/overview)
+- Follow instructions in the [Participate page](Participate)
+- Submit predictions
 - Track your performance on the public leaderboard
 
 ## 📣 Stay Connected
 
-- 💬 Join the community on Discord/Slack (invite link coming soon)
-- 🐛 File issues on our [GitHub](https://github.com/neurips25-eai)
+- 🐛 File issues on our [GitHub](https://github.com/embodied-agent-interface/embodied-agent-interface)
 - 📧 Contact us at: `TianweiBao@u.northwestern.edu`
 
 **Let’s build the future of intelligent embodied agents — together.**
