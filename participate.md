@@ -22,7 +22,7 @@ To help you get up to speed and make the most of the **EAI Challenge**, we have 
 
 To make participation more accessible to the broader embodied AI community, we have designed a straightforward submission process. You are **not required** to set up or run the complex **BEHAVIOR** or **VirtualHome** simulation environments. All you need to provide is your model's outputs. We will take care of the rest and perform evaluation internally in a sandboxed environment within our infrastructure.
 
-We have created a [**Starter Kit**]() with all the essentials to help you get started quickly. The kit includes:
+We have created a [**Starter Kit**](https://drive.google.com/file/d/1KGUIGetLaizLTzWqXdR8WlMTwKUpYJQa/view?usp=sharing) with all the essentials to help you get started quickly. The kit includes:
 
 * **`llm_prompts/`**: A directory containing all the prompts you will use to query your model.
 * **`sample_submission/`**: A sample submission folder that shows the required format and structure for your model's outputs.
@@ -59,7 +59,7 @@ To submit your model's outputs for evaluation, please follow these steps:
 
 1. **Review the [EvalAI documentation](https://evalai.readthedocs.io/en/latest/participate.html)**: Familiarize yourself with the submission process and officially join the [EAI Challenge](https://eval.ai/web/challenges/challenge-page/2621/overview)
 
-2. **Prepare Your Submission**: Organize your model's outputs according to the structure outlined in the sample_submission in the [**Starter Kit**](). Please make sure names of 8 required output files exactly match the expected names as shown in the sample_submission.
+2. **Prepare Your Submission**: Organize your model's outputs according to the structure outlined in the sample_submission in the [**Starter Kit**](https://drive.google.com/file/d/1KGUIGetLaizLTzWqXdR8WlMTwKUpYJQa/view?usp=sharing). Please make sure names of 8 required output files exactly match the expected names as shown in the sample_submission.
 
 3. **Upload to EvalAI**: Use the EvalAI platform to upload your submission. Please zip your submission folder before uploading. The zipped folder should contain all required output files in the correct structure as shown below.
 
