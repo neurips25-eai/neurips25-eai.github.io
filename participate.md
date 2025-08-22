@@ -57,7 +57,7 @@ eai_starter_kit/
 
 To submit your model's outputs for evaluation, please follow these steps:
 
-1. **Review the [EvalAI documentation](https://evalai.readthedocs.io/en/latest/participate.html)**: Familiarize yourself with the submission process and officially join the [EAI Challenge](https://eval.ai/web/challenges/challenge-page/2621/overview)
+1. **Review the [EvalAI documentation](https://evalai.readthedocs.io/en/latest/participate.html)**: Familiarize yourself with the submission process and officially join the [EAI Challenge](https://eval.ai/web/challenges/challenge-page/2621/overview). While at the same time, please fill out the [Participant Information Form](https://forms.gle/vEJ4jeuE3GfVGaGBA) to help us better organize the competition.
 
 2. **Prepare Your Submission**: Organize your model's outputs according to the structure outlined in the sample_submission in the [**Starter Kit**](https://drive.google.com/file/d/1KGUIGetLaizLTzWqXdR8WlMTwKUpYJQa/view?usp=sharing). Please make sure names of 8 required output files exactly match the expected names as shown in the sample_submission.
 
