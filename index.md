@@ -78,7 +78,7 @@ An aggregated **Average Performance** metric summarizes overall model capability
 ## 📌 How to Participate
 
 - Register via [EvalAI](https://eval.ai/web/challenges/challenge-page/2621/overview)
-- Follow instructions in the [Participate page](Participate)
+- Follow instructions in the [Participate page](participate)
 - Submit predictions
 - Track your performance on the public leaderboard
 
