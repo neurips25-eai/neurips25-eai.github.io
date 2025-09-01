@@ -86,6 +86,7 @@ An aggregated **Average Performance** metric summarizes overall model capability
 ## 📣 Stay Connected
 
 - 🐛 File issues on our [GitHub](https://github.com/embodied-agent-interface/embodied-agent-interface)
+- 📢 Join our [Slack](https://join.slack.com/t/eaichallengen-xzk8506/shared_invite/zt-3cm0dms1t-tvylNsamaZQgC03k0kBB9g) for discussions and updates
 - 📧 Contact us at: `TianweiBao@u.northwestern.edu`
 
 **Let’s build the future of intelligent embodied agents — together.**

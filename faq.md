@@ -75,5 +75,4 @@ We recommend reviewing your submission carefully and ensuring that it aligns wit
 ## Support
 
 ### Who can I contact for questions or support?
-
-If you have any questions or need assistance, please reach out to us at `TianweiBao@u.northwestern.edu`. We are here to help!
+If you have any questions or need assistance, please reach out to us at `TianweiBao@u.northwestern.edu` or post in our [Slack](https://join.slack.com/t/eaichallengen-xzk8506/shared_invite/zt-3cm0dms1t-tvylNsamaZQgC03k0kBB9g). We are here to help!
