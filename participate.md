@@ -85,4 +85,4 @@ To submit your model's outputs for evaluation, please follow these steps:
 4. **Monitor Your Submission**: After submitting, you can monitor the submission status on [My Submissions](https://eval.ai/web/challenges/challenge-page/2621/my-submission) page and performance of your submission on the [Leaderboard](https://eval.ai/web/challenges/challenge-page/2621/leaderboard). Please note that because the evaluation involves interacting with the simulation environments, it may take 10–30 minutes to receive your results.
 
 
-We look forward to seeing your innovative solutions in action! If you have any questions or need assistance, don't hesitate to reach out to us at `TianweiBao@u.northwestern.edu`.
+We look forward to seeing your innovative solutions in action! If you have any questions or need assistance, don't hesitate to reach out to us at `TianweiBao@u.northwestern.edu` or post in our [Slack](https://join.slack.com/t/eaichallengen-xzk8506/shared_invite/zt-3cm0dms1t-tvylNsamaZQgC03k0kBB9g).
