@@ -71,8 +71,8 @@ An aggregated **Average Performance** metric summarizes overall model capability
 |------------------------|-----------------------|
 | Beta Testing           | July                  |
 | Competition Launch     | August                |
-| Development Phase      | August – Mid November |
-| Final Evaluation       | Mid – Late November   |
+| Development Phase      | August – Early November |
+| Final Evaluation       | Early November - Early December |
 | NeurIPS 2025 Competition Track In-Person Event | Early December        |
 
 
