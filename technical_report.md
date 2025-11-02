@@ -1,8 +1,10 @@
 # Technical Report Instructions
 
-Welcome to the Embodied Agent Interface (EAI) Challenge! This document contains the official instructions for your technical report submission.
+Welcome to the Embodied Agent Interface (EAI) Challenge! This document contains the official instructions for your technical report submission. All teams participating in the Final Evaluation Phase must submit a technical report describing their approach, experiments, and results. This template provides a structured format following NeurIPS 2025 conference style guidelines.
 
-## Table of Contents
+**Important:** The LaTeX template provides a suggested structure to guide your writing. Teams are allowed and encouraged to modify the structure, add additional sections, or reorganize content as needed to best present their work. The key requirement is to meet the formatting guidelines and cover all essential content areas.
+
+---
 
 - [Overview](#overview)
   - [Public Submissions](#public-submissions)
@@ -34,11 +36,6 @@ Welcome to the Embodied Agent Interface (EAI) Challenge! This document contains 
 
 ---
 
-## Overview
-
-All teams participating in the Final Evaluation Phase must submit a technical report describing their approach, experiments, and results. This template provides a structured format following NeurIPS 2025 conference style guidelines.
-
-**Important:** The LaTeX template provides a suggested structure to guide your writing. Teams are allowed and encouraged to modify the structure, add additional sections, or reorganize content as needed to best present their work. The key requirement is to meet the formatting guidelines and cover all essential content areas.
 
 ### Public Submissions
 
