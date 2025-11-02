@@ -2,6 +2,38 @@
 
 Welcome to the Embodied Agent Interface (EAI) Challenge! This document contains the official instructions for your technical report submission.
 
+## Table of Contents
+
+- [Overview](#overview)
+  - [Public Submissions](#public-submissions)
+- [Files Included](#files-included)
+- [Requirements](#requirements)
+  - [Page Limit](#page-limit)
+  - [Formatting Requirements](#formatting-requirements)
+- [Report Structure Overview](#report-structure-overview)
+  - [Excluded from Page Limit](#excluded-from-page-limit)
+  - [Optional Sections](#optional-sections)
+- [How to Use This Template](#how-to-use-this-template)
+  - [Step 1: Setup LaTeX Environment](#step-1-setup-latex-environment)
+  - [Step 2: Download Template Files](#step-2-download-template-files)
+  - [Step 3: Fill in the Template](#step-3-fill-in-the-template)
+  - [Step 4: Compile Your Document](#step-4-compile-your-document)
+- [Submission Guidelines](#submission-guidelines)
+  - [Deadline](#deadline)
+  - [Where to Submit](#where-to-submit)
+  - [What to Submit](#what-to-submit)
+  - [Important: OpenReview Account Creation](#important-openreview-account-creation)
+- [Writing Tips](#writing-tips)
+  - [Aim for High Quality](#aim-for-high-quality)
+  - [Be Clear and Specific](#be-clear-and-specific)
+  - [Conduct Thorough Analysis](#conduct-thorough-analysis)
+  - [Ensure Reproducibility](#ensure-reproducibility)
+- [Evaluation Criteria](#evaluation-criteria)
+- [Frequently Asked Questions](#frequently-asked-questions)
+- [Citation](#citation)
+
+---
+
 ## Overview
 
 All teams participating in the Final Evaluation Phase must submit a technical report describing their approach, experiments, and results. This template provides a structured format following NeurIPS 2025 conference style guidelines.
