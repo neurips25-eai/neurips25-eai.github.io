@@ -5,7 +5,7 @@ layout: default
 
 Thanks for your interest in the **Embodied Agent Interface Challenge**! 
 
-Follow the instructions below to get started with the **Development Phase** of the EAI Challenge, and most importantly, have fun!
+Follow the instructions below to get started with the **Final Evaluation Phase** of the EAI Challenge, and most importantly, have fun!
 
 ## 📚 Resources
 
@@ -24,6 +24,7 @@ To make participation more accessible to the broader embodied AI community, we h
 
 We have created a [**Starter Kit**](https://drive.google.com/file/d/1KGUIGetLaizLTzWqXdR8WlMTwKUpYJQa/view?usp=sharing) with all the essentials to help you get started quickly. The kit includes:
 
+* **`latex_template/`**: A template for writing your technical report.
 * **`llm_prompts/`**: A directory containing all the prompts you will use to query your model.
 * **`sample_submission/`**: A sample submission folder that shows the required format and structure for your model's outputs.
 * **`starter.ipynb`**: A notebook to guide you through the process of generating outputs and preparing your submission.
@@ -32,6 +33,10 @@ We have created a [**Starter Kit**](https://drive.google.com/file/d/1KGUIGetLaiz
 📁 Starter Kit Structure
 
 eai_starter_kit/
+├── latex_template/
+│   ├── technical_report_template.tex
+│   ├── references.bib
+│   └── neurips_2025.sty
 ├── llm_prompts/
 │   ├── behavior_action_sequencing_prompts.json
 │   ├── behavior_goal_interpretation_prompts.json
@@ -84,5 +89,6 @@ To submit your model's outputs for evaluation, please follow these steps:
     
 4. **Monitor Your Submission**: After submitting, you can monitor the submission status on [My Submissions](https://eval.ai/web/challenges/challenge-page/2621/my-submission) page and performance of your submission on the [Leaderboard](https://eval.ai/web/challenges/challenge-page/2621/leaderboard). Please note that because the evaluation involves interacting with the simulation environments, it may take 10–30 minutes to receive your results.
 
+## 📝 Technical Report
 
 We look forward to seeing your innovative solutions in action! If you have any questions or need assistance, don't hesitate to reach out to us at `TianweiBao@u.northwestern.edu` or post in our [Slack](https://join.slack.com/t/eaichallengen-xzk8506/shared_invite/zt-3cm0dms1t-tvylNsamaZQgC03k0kBB9g).

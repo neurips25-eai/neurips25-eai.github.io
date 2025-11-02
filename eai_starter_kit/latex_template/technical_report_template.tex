@@ -1,0 +1,167 @@
+\documentclass{article}
+
+% NeurIPS 2025 style
+\usepackage[final]{neurips_2025}
+
+% Standard packages
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{hyperref}
+\usepackage{url}
+\usepackage{booktabs}
+\usepackage{amsfonts}
+\usepackage{nicefrac}
+\usepackage{microtype}
+\usepackage{xcolor}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{algorithm}
+\usepackage{algorithmic}
+\usepackage{multirow}
+\usepackage{subcaption}
+
+
+% Title and author information
+\title{Technical Report: Embodied Agent Interface Challenge@NeurIPS 2025}
+%Change the title if desired to include your team name and approach 
+
+% Authors - INSTRUCTIONS:
+% - List all team members
+% - Include affiliations
+% - Mark corresponding author with \thanks{}
+% - Use \And to separate authors from different institutions
+\author{%
+  First Author Name$^{1}$\thanks{Corresponding author: email@domain.com} \quad
+  Second Author Name$^{1}$ \quad
+  Third Author Name$^{2}$ \\
+  $^{1}$First Institution/University \\
+  $^{2}$Second Institution/University \\
+  \texttt{\{author1, author2\}@institution1.edu, author3@institution2.edu}
+}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+This abstract should provide a concise overview of your team's approach to the \textbf{Embodied Agent Interface Challenge}. Begin by describing your overall methodology and key innovations that distinguish your approach from existing methods. Then, summarize your main results across all four tasks: Goal Interpretation, Subgoal Decomposition, Action Sequencing, and Transition Modeling. Finally, highlight the key findings or insights gained from your approach, discussing what worked well and what limitations were encountered. \textbf{The technical report may not exceed 8 pages in total (bios, references, and appendix excluded)}.
+\end{abstract}
+
+\section{Introduction}
+\label{sec:intro}
+
+Explain the necessary background and motivation for your approach, highlighting the key challenges that embodied agents face when interpreting natural language instructions and planning actions in complex simulated environments. Clearly state the problem your team aims to solve and how it relates to the broader objectives of the \textbf{Embodied Agent Interface Challenge}~\cite{li2024embodied}. After establishing the context, summarize the key contributions of your work. For example, you might introduce a novel prompting strategy or model architecture that improves goal understanding, present an effective method for integrating multimodal information across different modalities, provide a comprehensive analysis of failure modes and success patterns in embodied task planning, or demonstrate state-of-the-art results on one or more of the challenge benchmarks. Each contribution should be clearly articulated and its significance explained.
+
+\section{Related Work}
+\label{sec:related}
+
+Discuss relevant prior work in embodied AI, task planning, language models for robotics, etc. Highlight how your approach differs from or builds upon these works.
+
+\section{Method}
+\label{sec:method}
+
+Provide a overview of your approach. What is your core methodology? What makes your approach unique or effective?
+\textbf{Below are suggested subsections to organize your method description. You can modify or add more subsections as needed.}
+
+\subsection{Goal Interpretation}
+\label{subsec:goal_interpretation}
+
+This subsection should describe your approach to the \textit{Goal Interpretation} task in detail. Begin by explaining how you represent and preprocess the input, including both the natural language goal descriptions and any environmental context provided. Describe the model architecture or prompting strategy you employed, discussing why this particular approach is well-suited for interpreting goal specifications in embodied environments. Address how your method handles ambiguity in natural language goals, as real-world instructions often contain implicit assumptions or underspecified constraints. Explain any task-specific innovations you developed, such as specialized prompting techniques, fine-tuning strategies, or integration of common-sense reasoning. If your approach leverages external knowledge sources or incorporates environmental affordances, describe these mechanisms and their impact on interpretation accuracy.
+
+\subsection{Subgoal Decomposition}
+\label{subsec:subgoal_decomposition}
+
+In this subsection, describe your approach to the \textit{Subgoal Decomposition} task. Explain how your method breaks down high-level goals into manageable subgoals, detailing the decomposition strategy and the reasoning behind it. If you employ hierarchical planning strategies, describe the hierarchy levels and how they relate to one another, including how subgoals at different abstraction levels are connected. Discuss how your approach determines the appropriate granularity for subgoals, balancing between overly coarse decompositions that provide insufficient guidance and overly fine-grained ones that become unwieldy. Address how your method handles temporal dependencies between subgoals, ensuring that prerequisite conditions are satisfied before dependent subgoals are executed. If your approach incorporates learning-based methods, heuristics, or constraint satisfaction techniques, explain these components and their roles in the decomposition process.
+
+\subsection{Action Sequencing}
+\label{subsec:action_sequencing}
+
+This subsection should detail your approach to the \textit{Action Sequencing} task. Describe your sequence generation methodology, explaining how your method produces executable action sequences that achieve the specified goals or subgoals. Discuss whether your approach uses autoregressive generation, planning algorithms, or hybrid methods, and justify your choice. Explain how your method handles various constraints including physical constraints, temporal constraints (such as action ordering requirements), and logical constraints (such as preconditions and effects). If you employ optimization strategies to improve action sequence efficiency or quality, describe these strategies and the objectives they optimize. Address how your approach ensures the executability of generated sequences and handles potential conflicts or infeasibilities in the action space.
+
+\subsection{Transition Modeling}
+\label{subsec:transition_modeling}
+
+In this subsection, describe your approach to the \textit{Transition Modeling} task. Explain how your method predicts state changes resulting from executed actions, detailing the representation of states and the mechanism for computing state transitions. Discuss whether your approach is model-based, learning-based, or combines elements of both paradigms. Address how your method handles object interactions and physical dynamics, including challenges such as multi-object interactions, state propagation effects, and the modeling of implicit state changes. If your approach incorporates domain knowledge about physics, object properties, or action effects, describe how this knowledge is integrated. Explain how your method manages uncertainty in state predictions and whether it produces deterministic or probabilistic state transitions.
+
+\subsection{Environment-Specific Adaptations}
+
+This subsection should discuss how your approach handles the differences between the \textbf{BEHAVIOR} and \textbf{VirtualHome} environments. Explain how you adapt to the different action spaces and object types available in each environment, describing any environment-specific modifications to your base approach. Address how your method accounts for the differences in scene complexity between the two environments, as \textbf{BEHAVIOR} typically features more complex and realistic scenarios compared to \textbf{VirtualHome}. Describe any environment-specific preprocessing or post-processing steps you employ, such as action vocabulary mapping, object ontology alignment, or output format adaptation. If you use a unified approach across both environments, explain how you achieve generalization while maintaining performance on environment-specific characteristics. If you use separate models or strategies for each environment, justify this design decision and discuss the trade-offs involved.
+
+\section{Implementation Details}
+\label{sec:implementation_details}
+
+This section should provide comprehensive implementation details to facilitate reproducibility. Begin by listing all models your team experimented with during the challenge, including both successful and unsuccessful attempts, as this information provides valuable insights into your development process. For each model, specify the model size, version, and any relevant architectural details. Describe the inference parameters used for generation, such as temperature, top-p (nucleus sampling), maximum token length, and any other sampling or decoding parameters. These details are crucial for reproducing your results. Document any preprocessing steps applied to the input data, such as prompt formatting, context construction, or data augmentation, as well as post-processing steps applied to model outputs, such as parsing, validation, or formatting corrections. Report the computational resources utilized, including the types and numbers of GPUs or TPUs, cloud computing services, and any distributed computing strategies. Provide approximate training time (if applicable) and inference time per sample, as these metrics help others assess the computational feasibility of your approach. If you used any software frameworks, libraries, or tools, mention them here along with their versions.
+
+\section{Evaluation Results}
+\label{sec:results}
+
+This section should present comprehensive quantitative results for all four tasks across both \textbf{BEHAVIOR} and \textbf{VirtualHome} environments. Use tables to organize your results clearly, showing performance metrics for each task. Include figures such as bar charts or line plots to visualize performance comparisons across different settings or model variants. Report results on the official evaluation metrics for each task, ensuring that your presentation aligns with the challenge's evaluation framework. If your team experimented with multiple approaches or tried different model variants, include ablation studies or comparative analyses that demonstrate the impact of key design decisions. Highlight your best-performing configuration and compare it against baseline methods or prior work where applicable. Provide statistical significance tests or confidence intervals if available to support the robustness of your findings.
+
+\section{Analysis and Discussion}
+\label{sec:analysis}
+
+This section should present both quantitative and qualitative analyses of your approach, providing deeper insights beyond the raw performance numbers. Discuss the strengths of your method, identifying where it excels and why. Equally important, acknowledge the limitations of your approach, discussing scenarios where it struggles or fails. This balanced analysis demonstrates critical thinking and helps advance the field by highlighting open problems. \textbf{The following subsections provide a suggested structure for organizing your analysis, though you may modify or add subsections as needed to best present your findings}.
+
+\subsection{Error Analysis}
+
+Conduct a thorough error analysis by examining the common failure modes of your approach. Categorize the types of errors your model or approach makes, such as misinterpretation of ambiguous language, incorrect object reasoning, invalid action sequences, or inaccurate state predictions. Provide examples of representative failures to illustrate these error categories. Investigate whether there are systematic biases or limitations in your approach. For instance, does your method perform poorly on certain types of tasks, specific linguistic constructions, or particular object interactions? Analyze whether errors correlate with task complexity, input length, or environmental characteristics. Discuss potential explanations for these patterns based on your method's design and the underlying models used.
+Finally, propose how these limitations might be addressed in future work. Consider improvements such as enhanced training data, refined prompting strategies, integration of additional knowledge sources, or architectural modifications that could mitigate the identified weaknesses.
+
+\subsection{Task-Specific Analysis}
+For each task, provide a detailed analysis:
+\vspace{0.2cm}
+
+\noindent\textbf{Goal Interpretation.} Analyze your performance on goal interpretation. What types of goals does your method handle well? Where does it struggle?
+
+\vspace{0.1cm}
+
+\noindent\textbf{Subgoal Decomposition.} Analyze subgoal decomposition results. How well does your method capture task hierarchies?
+
+\vspace{0.1cm}
+
+\noindent\textbf{Action Sequencing.} Analyze action sequencing performance. Discuss executability and efficiency of generated plans.
+
+\vspace{0.1cm}
+
+\noindent\textbf{Transition Modeling.} Analyze transition modeling accuracy. Which state changes are predicted accurately?
+
+\subsection{Cross-Environment Comparison}
+
+Compare your method's performance between the BEHAVIOR and VirtualHome environments, analyzing any significant differences in results. Discuss why certain aspects of your approach work better in one environment versus the other, considering factors such as environment complexity, action space characteristics, object variety, and task formulation differences. Explore whether the performance gap between environments reveals insights about the generalization capabilities of your method or highlights environment-specific challenges. Consider whether adaptations that improve performance in one environment come at the cost of performance in the other, and discuss the trade-offs involved in designing a unified versus environment-specific approach.
+
+\subsection{Insights and Lessons Learned}
+
+Share the key insights gained from your participation in the challenge. Reflect on what aspects of your approach worked well and what didn't meet expectations, discussing why certain strategies succeeded while others failed. This honest reflection provides valuable guidance for the research community. Describe any surprising findings or unexpected challenges you encountered during development. Perhaps certain techniques that seemed promising in theory proved ineffective in practice, or simple baselines performed surprisingly well on specific tasks. These insights can help others avoid similar pitfalls or recognize underexplored opportunities. Provide recommendations for future challenge participants based on your experience. This might include advice on debugging strategies, effective development workflows, important considerations for prompt engineering, or common pitfalls to avoid. Your practical wisdom can significantly accelerate progress for researchers building on this work.
+
+\subsection{Case Studies}
+
+Present representative examples that illustrate your method's behavior across different scenarios. Include success cases where your method performs well, providing detailed walkthroughs that demonstrate why your approach succeeds in these instances. These examples should highlight the strengths of your methodology and show your system working as intended. Equally important, include failure cases where your method produces incorrect or suboptimal results. For each failure case, analyze what went wrong and why, connecting the failure to specific limitations or design choices in your approach. These detailed examinations of failures are often more instructive than success stories. Additionally, present interesting edge cases or particularly challenging scenarios that test the boundaries of your approach. These might include ambiguous instructions, complex multi-step tasks, or situations requiring sophisticated reasoning. Discuss how your method handles these challenges and what they reveal about its capabilities and limitations. If space is limited in the main body, you can include additional case studies in the appendix to provide a more comprehensive view of your system's behavior.
+
+\section{Conclusion}
+\label{sec:conclusion}
+
+The conclusion should provide a concise summary of your work on the \textbf{Embodied Agent Interface Challenge}. Highlight your most significant results and performance achievements across the four tasks, emphasizing where your method demonstrated particular strengths. Discuss the limitations of your approach candidly, acknowledging areas where performance could be improved or where your method faces fundamental challenges. Based on these limitations and your experience with the challenge, suggest potential improvements that could be explored in future iterations of your work. Finally, broaden the discussion to suggest promising directions for future research in embodied AI. Consider how insights from your work might generalize beyond this specific challenge and what open problems remain to be solved in enabling agents to effectively interpret and execute complex tasks in embodied environments. This forward-looking perspective helps situate your contribution within the larger research trajectory of the field.
+
+\section*{Reproducibility Statement}
+\label{sec:reproducibility}
+
+To help us reproduce your results and validate the soundness of your approach, provide comprehensive information about your implementation. Specify code availability by providing a link to your GitHub repository or other code hosting platform where your implementation can be accessed. If applicable, indicate the availability of pretrained model checkpoints that others can use to replicate your results without retraining from scratch. Provide detailed hyperparameters either in this section or by referencing an appendix or supplementary material where complete configuration details are documented. Specify computational requirements including the hardware used (GPU/TPU models and quantities), memory requirements, and approximate wall-clock time needed for training (if applicable) and inference. Document random seeds and other aspects of the experimental setup necessary for exact replication of your results. This includes software versions (Python, CUDA, framework versions), dataset preprocessing steps, and any other environmental factors that might affect reproducibility. Include any additional information that would help others replicate your work, such as known platform-specific issues or dependencies on external services.
+
+
+\section*{Acknowledgments}
+
+If you wish to acknowledge external funding sources, computational resources, helpful discussions, etc., you may do so here.
+
+
+\bibliographystyle{plain}
+\bibliography{references}%put your references in references.bib
+
+\appendix
+
+\section{Biography of all team members}
+\label{sec:biography}
+Provide the team name you used for the EAI Challenge and a short biography of all team members. The section does not count towards the eight-page limit.
+
+% You can include more appendices if needed
+
+\end{document}
