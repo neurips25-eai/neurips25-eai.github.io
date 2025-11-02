@@ -159,7 +159,7 @@ Ensure you have a LaTeX distribution installed:
 
 ### Step 2: Download Template Files
 
-Download all three files from `eai_starter_kit/latex_template/` to your working directory:
+Download all three files from `eai_starter_kit/latex_template/` (https://drive.google.com/file/d/1d-SfGfp109NjRVhY8tFWrNu_KyWpLJbB/view?usp=sharing) to your working directory:
 - `technical_report_template.tex` (main template)
 - `neurips_2025.sty` (style file)
 - `references.bib` (bibliography with EAI citation)
