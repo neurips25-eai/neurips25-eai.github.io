@@ -7,6 +7,7 @@ Welcome to the Embodied Agent Interface (EAI) Challenge! This document contains 
 ---
 
 - [Overview](#overview)
+  - [Eligibility and Registration](#eligibility-and-registration)
   - [Public Submissions](#public-submissions)
 - [Files Included](#files-included)
 - [Requirements](#requirements)
@@ -36,6 +37,17 @@ Welcome to the Embodied Agent Interface (EAI) Challenge! This document contains 
 
 ---
 
+
+## Overview
+
+### Eligibility and Registration
+
+**All teams are welcome to participate in the Final Evaluation Phase**, even if you missed the Development Phase. Teams who join during the Final Evaluation Phase are still eligible for prizes.
+
+**Required Action**: All participating teams must fill out the registration form:
+- **Registration Form**: [https://forms.gle/eZri9Sj9RGDwJYzt6](https://forms.gle/eZri9Sj9RGDwJYzt6)
+
+This form collects essential information including your EvalAI team name, team members, and affiliation.
 
 ### Public Submissions
 
@@ -281,6 +293,12 @@ Technical reports will be evaluated based on:
 
 
 ## Frequently Asked Questions
+
+### Q: Can I participate in the Final Evaluation Phase if I missed the Development Phase?
+**A**: Yes! All teams are welcome to participate in the Final Evaluation Phase, even if you missed the Development Phase. You are still eligible for prizes. Make sure to fill out the registration form at [https://forms.gle/eZri9Sj9RGDwJYzt6](https://forms.gle/eZri9Sj9RGDwJYzt6).
+
+### Q: Do I need to fill out the registration form?
+**A**: Yes, all participating teams must complete the registration form. This helps us collect essential information including your EvalAI team name, team members, and affiliation. Register at [https://forms.gle/eZri9Sj9RGDwJYzt6](https://forms.gle/eZri9Sj9RGDwJYzt6).
 
 ### Q: Can we submit a report if we didn't achieve top performance?
 **A**: Yes! All teams that participated in the challenge are encouraged to submit. We value thorough analysis and insights regardless of leaderboard position.
