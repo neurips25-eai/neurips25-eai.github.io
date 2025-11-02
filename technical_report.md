@@ -57,7 +57,7 @@ The `eai_starter_kit/latex_template/` directory contains:
 
 - `technical_report_template.tex` - Main LaTeX template file with detailed instructions and TODO markers
 - `neurips_2025.sty` - NeurIPS 2025 style file (required for compilation)
-- `references.bib` - Bibliography file with the EAI benchmark citation
+- `references.bib` - Bibliography file you can use to cite your sources
 
 This document provides comprehensive submission instructions and guidelines.
 
