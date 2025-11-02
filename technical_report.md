@@ -1,4 +1,4 @@
-# Embodied Agent Interface Challenge - Technical Report Instructions
+# Technical Report Instructions
 
 Welcome to the Embodied Agent Interface (EAI) Challenge! This document contains the official instructions for your technical report submission.
 
