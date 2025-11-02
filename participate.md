@@ -89,6 +89,6 @@ To submit your model's outputs for evaluation, please follow these steps:
     
 4. **Monitor Your Submission**: After submitting, you can monitor the submission status on [My Submissions](https://eval.ai/web/challenges/challenge-page/2621/my-submission) page and performance of your submission on the [Leaderboard](https://eval.ai/web/challenges/challenge-page/2621/leaderboard). Please note that because the evaluation involves interacting with the simulation environments, it may take 10–30 minutes to receive your results.
 
-## 📝 Technical Report
+5. **Submit Your Technical Report**: Once you are satisfied with your results, submit your technical report to the [OpenReview submission portal](https://openreview.net/group?id=NeurIPS.cc/2025/Workshop/FMEA) before the deadline on December 1, 2025 AOE (Anywhere on Earth). Please follow the instructions in the [Technical Report](technical_report) page to prepare your technical report.
 
 We look forward to seeing your innovative solutions in action! If you have any questions or need assistance, don't hesitate to reach out to us at `TianweiBao@u.northwestern.edu` or post in our [Slack](https://join.slack.com/t/eaichallengen-xzk8506/shared_invite/zt-3cm0dms1t-tvylNsamaZQgC03k0kBB9g).
