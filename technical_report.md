@@ -278,7 +278,7 @@ Technical reports will be evaluated based on:
 
 2. **Effort and Completeness**
    - Number of approaches explored
-   - Number of traditional autoregressive LLMs experimented with(e.g. Qwen3 series, Llama3 series, etc.)
+   - Number of traditional autoregressive LLMs experimented with(e.g. Qwen3 series, Llama4 series, etc.)
    - Number of diffusion LLMs experimented with(e.g. RND1.)
 
 3. **Experimental Rigor** 
