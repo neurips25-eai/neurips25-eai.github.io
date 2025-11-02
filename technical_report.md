@@ -8,6 +8,17 @@ All teams participating in the Final Evaluation Phase must submit a technical re
 
 **Important:** The LaTeX template provides a suggested structure to guide your writing. Teams are allowed and encouraged to modify the structure, add additional sections, or reorganize content as needed to best present their work. The key requirement is to meet the formatting guidelines and cover all essential content areas.
 
+### Public Submissions
+
+**All technical reports will be made public** on OpenReview, similar to ICLR conference submissions. This provides several valuable opportunities:
+
+- **Professional Development**: Practice writing high-quality research papers in a conference-style format
+- **Portfolio Building**: Add a publicly accessible technical report to your resume and academic portfolio
+- **Community Contribution**: Share your insights and approaches with the broader embodied AI research community
+- **Visibility**: Showcase your work to potential collaborators, advisors, and employers
+
+Given the public nature of these submissions, **teams should strive for the highest quality** in their technical reports. This is an excellent opportunity to demonstrate your research and technical writing skills to a wide audience.
+
 ## Files Included
 
 The `eai_starter_kit/latex_template/` directory contains:
@@ -180,6 +191,15 @@ All submissions must be made through OpenReview. You will need to upload:
 
 ## Writing Tips
 
+### Aim for High Quality
+
+Since all submissions will be made public on OpenReview, treat this as an opportunity to produce a polished, professional research paper:
+- Write clearly and professionally—this will be part of your public academic portfolio
+- Ensure thorough proofreading and editing before submission
+- Use high-quality figures and well-formatted tables
+- Follow academic writing best practices
+- Consider this as practice for future conference submissions
+
 ### Be Clear and Specific
 - Describe your method in enough detail for reproducibility
 - Use figures and diagrams to illustrate your approach
@@ -243,7 +263,7 @@ Technical reports will be evaluated based on:
 **A**: It's recommended but not strictly required. We encourage discussion of potential impacts and responsible AI considerations.
 
 ### Q: Will the reports be published?
-**A**: Selected reports may be featured on the challenge website, with permission from authors.
+**A**: Yes, all technical reports will be made public on OpenReview, following the ICLR conference model. This is an excellent opportunity to build your portfolio and contribute to the research community. Selected reports may also be featured on the challenge website.
 
 ### Q: Can we publish this work elsewhere?
 **A**: Yes, you retain full rights to your work. You may submit to other venues following their respective guidelines.
