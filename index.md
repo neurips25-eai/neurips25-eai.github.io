@@ -7,6 +7,7 @@ layout: default
 Welcome to the **Embodied Agent Interface (EAI) Challenge**, a NeurIPS 2025 competition that introduces a unified benchmarking framework for evaluating **Large Language Models (LLMs)** in **embodied decision-making tasks**. This competition aims to foster reproducible research and rigorous analysis in embodied AI, bridging the gap between language modeling and robotic planning.
 
 ## 📣 Announcements
+- **November 3, 2025** - The final evaluation phase officially starts at 12:00AM UTC-0! Please follow the instructions in the updated [Participate page](participate) to submit your final model outputs and technical report before the deadline on December 1, 2025. Good luck to all participants!
 - **September 1, 2025** - We are thrilled to announce that the [BEHAVIOR Challenge](https://behavior.stanford.edu/challenge/overview.html) is joining forces with the Embodied Agent Interface Challenge at this year's NeurIPS Competition Track. Two challenges, one stage — bringing richer benchmarks, diverse tasks, and a united embodied AI community!
 - **August 15, 2025** - The EAI Challenge officially kicks off at 12:00 PM (CDT)! We are thrilled to welcome all participants and can’t wait to see your innovative solutions.
 - **August 2, 2025** - Due to the recent NeurIPS rebuttal period and AAAI submissions, our organizing team has decided to postpone the official launch of the EAI Challenge to August 15 to ensure an optimal participation experience. We greatly appreciate everyone’s patience!
