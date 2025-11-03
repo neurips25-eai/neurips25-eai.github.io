@@ -22,7 +22,7 @@ To help you get up to speed and make the most of the **EAI Challenge**, we have 
 
 To make participation more accessible to the broader embodied AI community, we have designed a straightforward submission process. You are **not required** to set up or run the complex **BEHAVIOR** or **VirtualHome** simulation environments. All you need to provide is your model's outputs. We will take care of the rest and perform evaluation internally in a sandboxed environment within our infrastructure.
 
-We have created a [**Starter Kit**](https://drive.google.com/file/d/1d-SfGfp109NjRVhY8tFWrNu_KyWpLJbB/view?usp=sharing) with all the essentials to help you get started quickly. The kit includes:
+[**Starter Kit**](https://drive.google.com/file/d/1d-SfGfp109NjRVhY8tFWrNu_KyWpLJbB/view?usp=sharing) has been updated with all the essentials to help you get started quickly with the final evaluation phase. The kit includes:
 
 * **`latex_template/`**: A template for writing your technical report.
 * **`llm_prompts/`**: A directory containing all the prompts you will use to query your model. 
