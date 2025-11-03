@@ -68,7 +68,7 @@ Given the public nature of these submissions, **teams should strive for the high
 
 The `eai_starter_kit/latex_template/` directory contains:
 
-- `technical_report_template.tex` - Main LaTeX template file with detailed instructions and TODO markers
+- `technical_report_template.tex` - Main LaTeX template file with detailed instructions
 - `neurips_2025.sty` - NeurIPS 2025 style file (required for compilation)
 - `references.bib` - Bibliography file you can use to cite your sources
 
@@ -202,7 +202,7 @@ Compile the LaTeX document into a PDF using your preferred LaTeX editor (e.g. Ov
 ## Submission Guidelines
 
 ### Deadline
-- **Technical Report Submission**: 12/01/2025 AOE (Anywhere on Earth)
+- **Technical Report Submission**: 12/01/2025 12:00AM UTC-0
 - Grace period may be granted for exceptional cases
 - **Important**: Create OpenReview accounts with institutional emails well before the deadline to avoid moderation delays
 

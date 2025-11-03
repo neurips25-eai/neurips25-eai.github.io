@@ -52,4 +52,4 @@ Stay on track with the official milestones for the **Embodied Agent Interface Ch
 
 - Final leaderboard published  
 - Winning teams announced at **NeurIPS 2025**  
-- **Competition summary paper** and team reports submitted to proceedings  
+- **Competition summary paper** and team reports submitted
