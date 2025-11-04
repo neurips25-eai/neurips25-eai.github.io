@@ -42,7 +42,7 @@ To qualify for final ranking and awards:
 ## 🌍 Use of External Resources
 
 - You **may use external datasets or models** if:
-  - They were publicly available before the competition launch
+  - They were publicly available to all participants to maintain fairness
   - They are clearly cited in your final write-up
 
 ## 🚫 Disallowed Practices
