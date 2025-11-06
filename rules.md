@@ -20,7 +20,7 @@ To ensure fairness, transparency, and reproducibility, all participants must adh
 
 ## 📦 Submission Formats
 
-All interfaces and submission formats are detailed in the [Participate page](Participate).
+All interfaces and submission formats are detailed in the [Participate page](participate).
 
 ## 📈 Submission Limits
 
